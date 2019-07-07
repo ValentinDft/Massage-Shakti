@@ -44,6 +44,11 @@ body
 	opacity: 0.5;
 }
 
+.badge
+{
+	opacity: 0.5;
+}
+
 /* Page 1 */
 
 .blockPage1
