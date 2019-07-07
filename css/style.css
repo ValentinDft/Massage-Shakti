@@ -5,6 +5,7 @@ body
 	background-position: top;
 }
 
+/* Page accueil */
 .block
 {
 	width: 100%;
@@ -41,4 +42,26 @@ body
 .list-group-item:hover
 {
 	opacity: 0.5;
+}
+
+/* Page 1 */
+
+.blockPage1
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20%;
+	margin-top: 30px;
+}
+
+.blockPage1 h1
+{
+	font-family: 'Mr De Haviland', cursive;
+	color: white;
+	font-size: 110px;
+	text-align: center;
+	margin-top: 40px;
+	letter-spacing: 10px;
+	text-shadow:rgba(0, 0, 0, 0.298039) 0px 5px 0px;
 }
