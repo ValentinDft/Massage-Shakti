@@ -1,0 +1,44 @@
+body
+{
+	background-image: url(../images/bienvenue.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.block
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30%;
+	margin-top: 30px;
+}
+
+.block h1
+{
+	font-family: 'Mr De Haviland', cursive;
+	color: white;
+	font-size: 110px;
+	text-align: center;
+	margin-top: 40px;
+	letter-spacing: 10px;
+	text-shadow:rgba(0, 0, 0, 0.298039) 0px 5px 0px;
+}
+
+.btn
+{
+	font-size: 25px;
+	opacity: 0.8;
+}
+
+/* NAV */
+
+.list-group-item
+{
+	background: transparent;
+}
+
+.list-group-item:hover
+{
+	opacity: 0.5;
+}
