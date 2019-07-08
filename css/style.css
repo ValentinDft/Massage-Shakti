@@ -1,10 +1,17 @@
-body
+body#accueil
 {
 	background-image: url(../images/bienvenue.jpg);
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 }
 
+body#bilan
+{
+	background: url(../images/bilan_alimentaire.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment:fixed;
+}
 /* Page accueil */
 .block
 {
@@ -51,7 +58,7 @@ body
 
 /* Page 1 */
 
-.blockPage1
+.blockAvecMenu
 {
 	width: 100%;
 	margin: 0 auto;
@@ -60,7 +67,7 @@ body
 	margin-top: 30px;
 }
 
-.blockPage1 h1
+.blockAvecMenu h1
 {
 	font-family: 'Mr De Haviland', cursive;
 	color: white;
@@ -68,5 +75,21 @@ body
 	text-align: center;
 	margin-top: 40px;
 	letter-spacing: 10px;
-	text-shadow:rgba(0, 0, 0, 0.298039) 0px 5px 0px;
+	text-shadow:rgba(0, 0, 0, 0.3) 0px 5px 0px;
+}
+
+/* bilanAlimentaire */
+
+.blockDescription
+{
+	width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  margin-bottom: 30px;
+	opacity: 0.8;
+	font-family: 'DM Serif Text', serif;
 }
