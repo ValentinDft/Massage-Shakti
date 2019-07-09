@@ -18,7 +18,7 @@ body#bilan
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 30%;
+	padding-top: 25%;
 	margin-top: 30px;
 }
 
@@ -28,7 +28,7 @@ body#bilan
 	color: white;
 	font-size: 110px;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 110px;
 	letter-spacing: 10px;
 	text-shadow:rgba(0, 0, 0, 0.298039) 0px 5px 0px;
 }
