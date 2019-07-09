@@ -5,9 +5,17 @@ body#accueil
 	background-position: center;
 }
 
-body#bilan
+body#bilanAli
 {
 	background: url(../images/bilan_alimentaire.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment:fixed;
+}
+
+body#reiki
+{
+	background: url(../images/reiki.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment:fixed;
@@ -102,8 +110,25 @@ body#bilan
   padding: 10px;
   background-color: #ddd;
   border-radius: 30px;
-  border: 2px solid #ccc;
-  margin-bottom: 30px;
+	opacity: 0.8;
+	font-family: 'DM Serif Text', serif;
+}
+
+#bilan
+{
+	padding-top: 180px;
+}
+
+/* Reiki */
+
+.blockDescriptionReiki
+{
+	width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 30px;
 	opacity: 0.8;
 	font-family: 'DM Serif Text', serif;
 }
