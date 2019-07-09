@@ -5,7 +5,7 @@ body#accueil
 	background-position: center;
 }
 
-body#bilanAli
+body#bilan
 {
 	background: url(../images/bilan_alimentaire.jpg);
 	background-repeat: no-repeat;
@@ -16,6 +16,14 @@ body#bilanAli
 body#reiki
 {
 	background: url(../images/reiki.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment:fixed;
+}
+
+body#massageAyurvedique
+{
+	background: url(../images/ayurvedique.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment:fixed;
@@ -88,47 +96,31 @@ body#reiki
 
 .blockDescription
 {
-	width: 60%;
+	width: 62%;
   margin: 0 auto;
   text-align: center;
   padding: 30px;
   background-color: #ddd;
   border-radius: 30px;
-  border: 2px solid #ccc;
-  margin-bottom: 30px;
 	opacity: 0.8;
 	font-family: 'DM Serif Text', serif;
 }
 
-/* bilanAlimentaire */
+/* Bilan */
 
-.blockDescriptionBilanAlimentaire
+#secBilan
 {
-	width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px;
-  background-color: #ddd;
-  border-radius: 30px;
-	opacity: 0.8;
-	font-family: 'DM Serif Text', serif;
-}
-
-#bilan
-{
-	padding-top: 180px;
+	padding-top: 142px;
 }
 
 /* Reiki */
-
-.blockDescriptionReiki
+#secReiki
 {
-	width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px;
-  background-color: #ddd;
-  border-radius: 30px;
-	opacity: 0.8;
-	font-family: 'DM Serif Text', serif;
+	padding-top: 142px;
+}
+
+/* Massage Ayurvedique */
+#secMassageAyurvedique
+{
+	padding-top: 140px;
 }
