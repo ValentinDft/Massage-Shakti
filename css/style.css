@@ -28,6 +28,14 @@ body#massageAyurvedique
 	background-position: top;
 	background-attachment:fixed;
 }
+
+body#massageUdvartana
+{
+	background: url(../images/udvartana.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment:fixed;
+}
 /* Page accueil */
 .block
 {
@@ -123,4 +131,20 @@ body#massageAyurvedique
 #secMassageAyurvedique
 {
 	padding-top: 140px;
+}
+
+#secMassageAyurvedique .blockTitre
+{
+	padding-top: 60px;
+}
+
+/* Massage Udvartana */
+#secMassageUdvartana
+{
+	padding-top: 140px;
+}
+
+#secMassageUdvartana .blockTitre
+{
+	padding-top: 10px;
 }
