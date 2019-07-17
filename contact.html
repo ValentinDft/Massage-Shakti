@@ -11,10 +11,10 @@
 <body id="accueil">
   <section id="contact">
     <div class="container">
-      <form action="index.html" method="post">
+      <form action="index.html" method="post" id="formulaireDeContact">
         <div class="form-group">
           <div class="row">
-              <div class="col-md-6">
+              <div class="col-sm-6">
                 <div class="blockDescription">
                   <label for="nom">Nom* : </label>
                   <input type="text" name="nom" class="form-control" placeholder="Saisir votre nom"><br>
@@ -24,11 +24,19 @@
                   <input type="tel" name="tel" class="form-control" placeholder="Saisir votre téléphone"><br>
                   <label for="message">Message* : </label>
                   <textarea name="message" rows="8" cols="80" class="form-control" placeholder="Saisir votre message"></textarea>
-                </div>  
+                  <p>* Ces informations sont requises.</p><br>
+                  <button type="button" name="envoie" class="btn btn-danger">Envoyer</button>
+                </div>
               </div>
           </div>
         </div>
       </form>
+        <div class="blockDescription">
+          <h2>Téléphone : 07 82 90 65 52</h2><br>
+          <p>Horaire téléphone du Lundi au Vendredi de 10h à 15h</p><br>
+          <p>Je vous reçois à mon domicile <strong>Quartier Lassagne 07150 Vagnas</strong>  ou je me déplace également dans un secteur de 40km.</p><br>
+          <p>Pour me contacter en cas d'absence laisser un message</p>
+        </div>
     </div>
     <div class="blockTitre">
       <h1>Espace Massage Ayurvédique Shakti</h1><br>
