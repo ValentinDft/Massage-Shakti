@@ -12,15 +12,18 @@
   </head>
   <body id="accueil">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="list-group">
-            <a href="index.html" class="list-group-item list-group-item-action"><span class="fas fa-home"> Accueil</span></a>
-            <a href="bilanAlimentaire.html" class="list-group-item list-group-item-action"><span class="fas fa-utensils"> Bilan Alimentaire</span></a>
-            <a href="reiki.html" class="list-group-item list-group-item-action"><span class="fas fa-spa"> Massage & énergétique<span class="badge badge-pill badge-light"> 3</span></span></a>
-            <a href="#" class="list-group-item list-group-item-action"><span class="fas fa-tty"> Contact</span> </a>
-          </div>
-        </div>
+      <div class="menu-vertical">
+        <ul class="menu-principale">
+          <li><a href="index.html"><span class="fas fa-home"></span> Accueil</a></li>
+          <li><a href="bilanAlimentaire.html"><span class="fas fa-utensils"></span> Bilan Alimentaire</a></li>
+          <li class="sous-menu"><span class="badge badge-pill badge-light">3</span><a href="#"> Massages & Energétique</a></li>
+          <ul class="menu-secondaire">
+            <li><a href="reiki.html"><span class="fas fa-spa"></span> Reiki</a></li>
+            <li><a href="massageAyurvedique.html"><span class="fas fa-spa"></span> Massage Ayurvédique</a></li>
+            <li><a href="massageUdvartana.html"><span class="fas fa-spa"></span> Massage Udvartana</a></li>
+          </ul>
+          <li><a href="contact.html"><span class="fas fa-tty"></span> Contact</a></li>
+        </ul>
       </div>
     </div>
     <section id="presentation">
