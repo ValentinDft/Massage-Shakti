@@ -1,6 +1,6 @@
 body#accueil
 {
-	background-image: url(../images/bienvenue.jpg);
+	background-image: url(../images/bienvenue2.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment:fixed;
@@ -43,7 +43,7 @@ body#massageUdvartana
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 20%;
+	padding-top: 8%;
 	margin-top: 30px;
 }
 
@@ -51,6 +51,7 @@ body#massageUdvartana
 {
 	font-family: 'Mr De Haviland', cursive;
 	color: white;
+	padding-top: 12%;
 	font-size: 90px;
 	text-align: center;
 	margin-top: 110px;
@@ -60,8 +61,10 @@ body#massageUdvartana
 
 .btn
 {
-	font-size: 25px;
-	opacity: 0.8;
+	font-size: 26px;
+	background-color: rgba(217,83,79, 0.7);
+	border-radius: 0px;
+	border-color: rgba(217,83,79, 0.7);
 }
 
 /* NAV */
@@ -94,30 +97,32 @@ body#massageUdvartana
 }
 .menu a
 {
+	padding-left: 20px;
 	display:block;
 	width:100%;
 	height:100%;
-	font-size:20px;
-	font-family: 'DM Serif Text', serif;
-	text-decoration:none;
+	font-size:21px;
+	font-family: 'Dancing Script', serif;
+	text-decoration: none;
 	background:#ddd;
 	color: black;
 }
 .sousmenu a
 {
+	padding-left: 30px;
 	display:block;
 	width:100%;
 	height:100%;
 	color:#fff;
-	font-family: 'DM Serif Text', serif;
-	font-size:16px;
+	font-family: 'Dancing Script', serif;
+	font-size:20px;
 	text-decoration:none;
 	background:#808080;
 }
 .menu a:hover, .sousmenu a:hover, .menu a:active, .sousmenu a:active, .menu a:focus, .sousmenu a:focus
 {
-	background:#ca0008;
-	font-size: 21px;
+	background:#de3c37;
+	font-size: 22px;
 	color: white;
 
 }
@@ -150,9 +155,8 @@ body#massageUdvartana
   margin: 0 auto;
   text-align: center;
   padding: 30px;
-  background-color: #ddd;
+  background-color: rgba(221,221,221, 0.4);
   border-radius: 30px;
-	opacity: 0.8;
 	font-family: 'DM Serif Text', serif;
 }
 

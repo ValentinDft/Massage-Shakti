@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="stylesheet" href="css\style.css">
   <script type="text/javascript" src="functions.js"></script>
@@ -14,20 +15,20 @@
 <body id="accueil">
   <div class="container">
     <div id="menu">
-      <div class="menu" id="menu1" onclick="afficheMenu(this)"><a href="accueil.html"><span class="fas fa-home"></span> Accueil</a></div>
-      <div class="menu" id="menu2" onclick="afficheMenu(this)"><a href="bilanAlimentaire.html"><span class="fas fa-utensils"></span> Bilan Alimentaire</a></div>
+      <div class="menu" id="menu1" onclick="afficheMenu(this)"><a href="accueil.html"> Accueil</a></div>
+      <div class="menu" id="menu2" onclick="afficheMenu(this)"><a href="bilanAlimentaire.html"> Bilan Alimentaire</a></div>
       <div class="menu" id="menu3" onclick="afficheMenu(this)"><a href="#"> Massages & Energétique</a></div>
       <div id="sousmenu3" style="display:none">
-           <div class="sousmenu"><a href="reiki.html"><span class="fas fa-spa"></span> Reiki</a></div>
-           <div class="sousmenu"><a href="massageAyurvedique.html"><span class="fas fa-spa"></span> Massage Ayurvédique</a></div>
-           <div class="sousmenu"><a href="massageUdvartana.html"><span class="fas fa-spa"></span> Massage Udvartana</a></div>
+           <div class="sousmenu"><a href="reiki.html"> Reiki</a></div>
+           <div class="sousmenu"><a href="massageAyurvedique.html"> Massage Ayurvédique</a></div>
+           <div class="sousmenu"><a href="massageUdvartana.html"> Massage Udvartana</a></div>
       </div>
-      <div class="menu" id="menu4" onclick="afficheMenu(this)"><a href="contact.html"><span class="fas fa-tty"></span> Contact</a></div>
+      <div class="menu" id="menu4" onclick="afficheMenu(this)"><a href="contact.html"> Contact</a></div>
     </div>
   </div>
   <section id="contact">
     <div class="container">
-      <form action="index.html" method="post" id="formulaireDeContact">
+      <form action="traitement.php" method="post" id="formulaireDeContact">
         <div class="form-group">
           <div class="row">
               <div class="col-sm-6">
@@ -35,7 +36,7 @@
                   <label for="nom">Nom* : </label>
                   <input type="text" name="nom" class="form-control" placeholder="Saisir votre nom"><br>
                   <label for="email">Email* : </label>
-                  <input type="email" name="nom" class="form-control" placeholder="Saisir votre email"><br>
+                  <input type="email" name="email" class="form-control" placeholder="Saisir votre email"><br>
                   <label for="tel">Téléphone* : </label>
                   <input type="tel" name="tel" class="form-control" placeholder="Saisir votre téléphone"><br>
                   <label for="message">Message* : </label>
@@ -50,8 +51,8 @@
         <div class="blockDescription">
           <h2>Téléphone : 07 82 90 65 52</h2><br>
           <p>Horaire téléphone du Lundi au Vendredi de 10h à 15h</p><br>
-          <p>Je vous reçois à mon domicile <strong>Quartier Lassagne 07150 Vagnas</strong>  ou je me déplace également dans un secteur de 40km.</p><br>
-          <p>Pour me contacter en cas d'absence laisser un message</p>
+          <p>Je vous reçois sur rendez-vous à mon domicile <strong>07150 Vagnas.</strong> Je serai également présente deux jours par semaine sur <strong>St Alban Auriolles</strong> ou je me déplace dans un secteur de 40km.</p><br>
+          <p>En cas d'absence laisser un message</p>
         </div>
     </div>
     <div class="blockTitre">
