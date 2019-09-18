@@ -4,6 +4,7 @@ body#accueil
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment:fixed;
+	background-size: cover;
 }
 
 body#bilan
@@ -12,6 +13,7 @@ body#bilan
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment:fixed;
+	background-size: cover;
 }
 
 body#reiki
@@ -20,6 +22,7 @@ body#reiki
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment:fixed;
+	background-size: cover;
 }
 
 body#massageAyurvedique
@@ -28,6 +31,7 @@ body#massageAyurvedique
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment:fixed;
+	background-size: cover;
 }
 
 body#massageUdvartana
@@ -36,6 +40,7 @@ body#massageUdvartana
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment:fixed;
+	background-size: cover;
 }
 /* Page accueil */
 .block
@@ -103,6 +108,7 @@ body#massageUdvartana
 	height:100%;
 	font-size:21px;
 	font-family: 'Dancing Script', serif;
+	font-weight: bold;
 	text-decoration: none;
 	background:#ddd;
 	color: black;
