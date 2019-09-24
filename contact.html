@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="AnimMenuTel.js"></script>
   <link rel="stylesheet" href="css\style.css">
   <script type="text/javascript" src="functions.js"></script>
   <title>Contact | Massage Ardèche | Shakti</title>
@@ -27,12 +29,13 @@
     </div>
   </div>
   <section id="contact">
+    <a href="#" id="boutonMenuTel"></span> </a>
     <div class="container">
       <form action="traitement.php" method="post" id="formulaireDeContact">
         <div class="form-group">
           <div class="row">
               <div class="col-sm-6">
-                <div class="blockDescription">
+                <div class="blockDescription" id="blockFormulaire">
                   <label for="nom">Nom* : </label>
                   <input type="text" name="nom" class="form-control" placeholder="Saisir votre nom" required><br>
                   <label for="email">Email* : </label>
