@@ -77,11 +77,10 @@ body#massageUdvartana
 #menu
 {
 	opacity: 0.7;
-	width: 300px;
+	width: 280px;
 	position: fixed;
-	top: 30%;
+	top: 35%;
 	right: 0;
-	margin-right: 30px;
 }
 
 .menu
@@ -183,7 +182,7 @@ body#massageUdvartana
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 90px;
+	padding-top: 50px;
 	margin-top: 30px;
 }
 
@@ -201,12 +200,17 @@ body#massageUdvartana
 .blockDescription
 {
 	width: 60%;
-  margin-left: 13%;
-  text-align: center;
+  margin-left: 15%;
+	text-align: justify;
   padding: 30px;
   background-color: rgba(221,221,221, 0.5);
   border-radius: 30px;
 	font-family: 'DM Serif Text', serif;
+}
+
+.blockDescription h2,h4
+{
+	text-align: center;
 }
 
 #blockFormulaire
@@ -226,10 +230,20 @@ body#massageUdvartana
 	padding-top: 142px;
 }
 
+#secBilan .blockDescription
+{
+	margin-top: 40px;
+}
+
 /* Reiki */
 #secReiki
 {
 	padding-top: 142px;
+}
+
+#secReiki .blockDescription
+{
+	margin-top: 40px;
 }
 
 /* Massage Ayurvedique */
@@ -238,9 +252,15 @@ body#massageUdvartana
 	padding-top: 140px;
 }
 
+#secMassageAyurvedique .blockDescription
+{
+	margin-top: 40px;
+}
+
 #secMassageAyurvedique .blockTitre
 {
-	padding-top: 45px;
+	padding-top: 20px;
+	margin-top: 0px;
 }
 
 /* Massage Udvartana */
@@ -251,7 +271,13 @@ body#massageUdvartana
 
 #secMassageUdvartana .blockTitre
 {
-	padding-top: 10px;
+	padding-top: 5px;
+	margin-top: 0px;
+}
+
+#secMassageUdvartana .blockDescription
+{
+	margin-top: 40px;
 }
 
 /* Contact */
@@ -259,6 +285,7 @@ body#massageUdvartana
 #formulaireDeContact .blockDescription
 {
 	margin: 2% 75%;
+	text-align: center;
 }
 
 #contact .blockTitre

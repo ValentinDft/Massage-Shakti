@@ -8,7 +8,7 @@
       $tel = $_POST['tel'];
       $message = $_POST['message'];
 
-      $destinataire = "admin@massageshaktiardeche.fr";
+      $destinataire = "sandrine.zao.07@gmail.com";
       $sujet = "Formulaire de contact site internet";
       $contenu = "Nom : $nom \n
         Tel : $tel \n
