@@ -7,6 +7,15 @@ body#accueil
 	background-size: cover;
 }
 
+body#petitsVedas
+{
+	background-image: url(../images/bienvenue2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
 body#bilan
 {
 	background: url(../images/bilan_alimentaire.jpg);
@@ -221,6 +230,22 @@ body#massageUdvartana
 #presentation
 {
 	margin-top: 12%
+}
+/* Les petits Védas */
+
+#secPetitsVedas
+{
+	padding-top: 142px;
+}
+
+#secPetitsVedas .blockDescription
+{
+	margin-top: 40px;
+}
+
+#secPetitsVedas .blockTitre
+{
+	margin-top: 0px;
 }
 
 /* Bilan */
