@@ -7,11 +7,20 @@ body#accueil
 	background-size: cover;
 }
 
-body#petitsVedas
+body#quiJeSuis
 {
-	background-image: url(../images/bienvenue2.jpg);
+	background-image: url(../images/1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
+body#petitsVedas
+{
+	background-image: url(../images/enfant.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
 	background-attachment:fixed;
 	background-size: cover;
 }
@@ -48,6 +57,24 @@ body#massageUdvartana
 	background: url(../images/udvartana.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
+body#reflexologie
+{
+	background: url(../images/reflexologie.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
+body#contact
+{
+	background-image: url(../images/c4.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
 	background-attachment:fixed;
 	background-size: cover;
 }
@@ -88,7 +115,7 @@ body#massageUdvartana
 	opacity: 0.7;
 	width: 280px;
 	position: fixed;
-	top: 35%;
+	top: 30%;
 	right: 0;
 }
 
@@ -210,17 +237,27 @@ body#massageUdvartana
 {
 	width: 60%;
   margin-left: 15%;
-	text-align: justify;
+	text-align: center;
   padding: 30px;
   background-color: rgba(221,221,221, 0.5);
   border-radius: 30px;
 	font-family: 'DM Serif Text', serif;
 }
 
-.blockDescription h2,h4
+.blockDescription p
 {
-	text-align: center;
+	text-align: justify;
 }
+
+/* #mdv
+{
+	margin-right: 18px;
+}
+
+#gde
+{
+	margin-left: 49px;
+} */
 
 #blockFormulaire
 {
@@ -231,6 +268,19 @@ body#massageUdvartana
 {
 	margin-top: 12%
 }
+
+/* Qui Je Suis */
+
+#secQuiJeSuis
+{
+	padding-top: 180px;
+}
+
+#secQuiJeSuis .blockTitre
+{
+	margin-top: 0px;
+}
+
 /* Les petits Védas */
 
 #secPetitsVedas
@@ -246,6 +296,12 @@ body#massageUdvartana
 #secPetitsVedas .blockTitre
 {
 	margin-top: 0px;
+}
+
+#secPetitsVedas ul
+{
+	text-align: justify;
+	padding-left: 15px;
 }
 
 /* Bilan */
@@ -305,6 +361,18 @@ body#massageUdvartana
 	margin-top: 40px;
 }
 
+/* Réflexologie */
+
+#secReflexologie
+{
+	padding-top: 142px;
+}
+
+#secReflexologie .blockDescription
+{
+	margin-top: 40px;
+}
+
 /* Contact */
 
 #formulaireDeContact .blockDescription
@@ -317,6 +385,11 @@ body#massageUdvartana
 {
 	margin-top: 0;
 	padding-top: 0;
+}
+
+#contact .blockDescription p
+{
+	text-align: center;
 }
 
 @media only screen and (max-width: 770px)
@@ -341,13 +414,13 @@ body#massageUdvartana
 	{
 		margin-bottom: 0;
 		padding: 10px;
-		font-size: 15px;
+		font-size: 12px;
 		width: 80%;
 	}
 
 	.blockDescription h2
 	{
-		font-size: 22px;
+		font-size: 18px;
 	}
 
 	.blockTitre h1
@@ -378,6 +451,7 @@ body#massageUdvartana
 		margin-left: 60% !important;
 		width: 100%;
 	}
+
 }
 
 @media only screen and (min-width: 1020px)
