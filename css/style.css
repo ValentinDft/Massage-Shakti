@@ -78,6 +78,14 @@ body#massageSchirotchampi{
 	background-size: cover;
 }
 
+body#massageKansu{
+	background: url(../images/bol_kansu.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
 body#contact
 {
 	background-image: url(../images/c4.jpg);
@@ -244,11 +252,11 @@ body#contact
 .blockDescription
 {
 	width: 60%;
-  margin-left: 15%;
+  	margin-left: 15%;
 	text-align: center;
-  padding: 30px;
-  background-color: rgba(221,221,221, 0.5);
-  border-radius: 30px;
+  	padding: 30px;
+  	background-color: rgba(221,221,221, 0.5);
+  	border-radius: 30px;
 	font-family: 'DM Serif Text', serif;
 }
 
@@ -379,6 +387,32 @@ body#contact
 #secReflexologie .blockDescription
 {
 	margin-top: 40px;
+}
+
+/* Schirotchampi */
+
+#secShirotchampi
+{
+	padding-top: 130px;
+}
+
+#secShirotchampi .blockTitre
+{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+/* Kansu */
+
+#secKansu
+{
+	padding-top: 130px;
+}
+
+#secKansu .blockTitre
+{
+	margin-top: 20px;
+	padding-top: 20px;
 }
 
 /* Contact */
