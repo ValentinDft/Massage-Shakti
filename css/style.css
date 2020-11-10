@@ -70,6 +70,14 @@ body#reflexologie
 	background-size: cover;
 }
 
+body#massageSchirotchampi{
+	background: url(../images/shirotchampi1.JPG);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment:fixed;
+	background-size: cover;
+}
+
 body#contact
 {
 	background-image: url(../images/c4.jpg);
@@ -129,7 +137,7 @@ body#contact
 }
 .sousmenu
 {
-	height:28px;
+	height:auto;
 	width:250px;
 	padding:1px 0;
 	background:transparent;
