@@ -11,8 +11,8 @@ body#quiJeSuis
 {
 	background-image: url(../images/1.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment:fixed;
+	background-position: 70%;
+	background-attachment: fixed;
 	background-size: cover;
 }
 
@@ -65,24 +65,24 @@ body#reflexologie
 {
 	background: url(../images/reflexologie.jpg);
 	background-repeat: no-repeat;
-	background-position: top;
-	background-attachment:fixed;
+	background-position: fixed center;
+	/* background-attachment:fixed; */
 	background-size: cover;
 }
 
 body#massageSchirotchampi{
-	background: url(../images/shirotchampi1.JPG);
+	background: url(../images/shirotchampi1.jpg);
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: 55%;
 	background-attachment:fixed;
 	background-size: cover;
+		
 }
 
 body#massageKansu{
-	background: url(../images/bol_kansu.jpg);
+	background: url(../images/kansu4.jpg);
 	background-repeat: no-repeat;
-	background-position: top;
-	background-attachment:fixed;
+	background-position: center;
 	background-size: cover;
 }
 
@@ -90,10 +90,26 @@ body#contact
 {
 	background-image: url(../images/c4.jpg);
 	background-repeat: no-repeat;
-	background-position: right;
-	background-attachment:fixed;
+	background-position: 85%;
 	background-size: cover;
+	
 }
+
+@media screen and (max-width:768px){
+	
+	body#contact{
+		background-size: 900px 100%;	
+	}
+
+	body#quiJeSuis{
+		background-size: 1300px 100%;
+		background-attachment: none;
+	}
+	body#massageKansu{
+		background-size: 900px 100%;
+	}
+}
+
 /* Page accueil */
 .block
 {
