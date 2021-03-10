@@ -84,6 +84,13 @@ body#massageKansu{
 	background-size: cover;
 }
 
+body#massagePochons{
+	background: url(../images/massageAuxPochons.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
 body#contact
 {
 	background-image: url(../images/c4.jpg);
@@ -448,6 +455,19 @@ body#contact
 }
 
 #secKansu .blockTitre
+{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+/* Massage Pochons */
+
+#secMassagePochons
+{
+	padding-top: 160px;
+}
+
+#secMassagePochons .blockTitre
 {
 	margin-top: 10px;
 	padding-top: 10px;
